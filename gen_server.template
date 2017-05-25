@@ -1,0 +1,6 @@
+{description, "A gen_server callback module"}.
+{variables, [
+    {name, "my_server", "Name of the gen_server callback module"}
+]}.
+{dir, "src"}.
+{template, "gen_server.erl", "src/{{name}}.erl"}.
